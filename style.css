@@ -1,0 +1,65 @@
+body {
+	margin: 0 auto;
+	position: relative;
+	width:1220px;
+	
+}
+.primary {
+	width: 250px;
+	position: absolute;
+	top:1em;
+	left: 0;
+	float: left;
+
+}
+.background {
+	z-index: -1;
+	position: absolute;
+	top: 0;
+	left: 0;
+	box-shadow: 0px 0px 3px #888888;
+}
+.logo{
+	margin-top: 1.5em;
+	margin-left: 2em;
+}
+.navigation {
+	margin-left: 6em;
+	margin-top: 2em;
+	line-height: 1.2em;
+	
+}
+.rotator {
+	float: left;
+	position:absolute;
+	top: 1.7em;
+	left: 255px;
+}
+
+.sidebarA {
+	width: 250px;
+	position: absolute;
+	top:20em;
+	left: 0;
+	float: left;
+}
+.article {
+	float: left;
+	position:absolute;
+	top: 21em;
+	left: 270px;
+	background-color:rgba(255,255,255,0.2);
+	padding:0.5em;
+	border-radius:5px;
+	width:687px;
+}
+.sidebarB {
+float: left;
+position: absolute;
+top: 21em;
+right: 15px;
+}
+.footer {
+
+}
+

@@ -1,0 +1,123 @@
+<html>
+<head>
+  <title></title>
+  <link rel="stylesheet" type="text/css" href="reset.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" type="text/css" href="wt-rotator.css"/>
+  <script type="text/javascript" src="js/jquery-1.7.1.min.js"></script>
+  <script type="text/javascript" src="js/jquery.wt-rotator.js"></script>
+  <script type="text/javascript" src="js/jquery.easing.1.3.min.js"></script>
+  
+</head>
+<body>
+	<div class="primary">
+		<div class="background">
+			<img src="background.jpg"></img>
+		</div>
+
+		<div class="logo">
+			<a href="#">
+				<img src="logo.png"></img>
+			</a>
+		</div>
+
+		<div class="navigation">
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">News</a></li>
+				<li><a href="#">Archive</a></li>
+				<li><a href="#">About Us</a></li>
+				<li><a href="#">Store</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="rotator">
+	
+		<div class="container">
+			<div class="wt-rotator">
+    			<div class="screen">
+        		    <noscript>
+            			<!-- placeholder 1st image when javascript is off -->
+                		<img src="images/madness_arch2.jpg"/>
+            		</noscript>
+      			</div>
+      			<div class="c-panel">
+      				<div class="thumbnails">
+                		<ul>
+                    		<li><a href="images/madness_arch2.jpg" title="architecture"><img src="images/thumbs/madness_arch2.jpg"/></a></li>
+                   			<li><a href="images/triworks_abstract17.jpg" title="3D abstract art"><img src="images/thumbs/triworks_abstract17.jpg"/></a></li>
+           	  				<li><a href="images/krazy-kartoons-robot-dj02.jpg" title="krazy kartoons"><img src="images/thumbs/krazy-kartoons-robot-dj02.jpg"/></a></li>
+              				<li><a href="images/card10.jpg" title="rockable press"><img src="images/thumbs/card10.jpg"/></a></li>
+              				<li><a href="images/triworks_abstract26.jpg" title="3D abstract art"><img src="images/thumbs/triworks_abstract26.jpg"/></a></li>
+           	  				<li><a href="images/triworks_objects17.jpg" title="3D objects"><img src="images/thumbs/triworks_objects17.jpg"/></a></li>
+              				<li><a href="images/scottwills_building2.jpg" title="building"><img src="images/thumbs/scottwills_building2.jpg"/></a></li>   
+              				<li><a href="images/moo10.jpg" title="say it in print"><img src="images/thumbs/moo10.jpg"/></a></li>
+  		            	</ul>
+  		        	</div>     
+  					<div class="buttons">
+        		        <div class="play-btn"></div>    
+            		</div>
+        		</div>
+ 		   </div>	
+		</div>
+	</div>
+	<div class="sidebarA">
+
+	</div>
+
+	<div class="article">
+		<h1>Welcome To Muscleflea!</h1>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec dui turpis, interdum at facilisis in, tincidunt eget nibh. Morbi est lacus, porttitor vitae rhoncus in, commodo eget magna. Duis varius sollicitudin eros, sit amet sollicitudin magna vulputate nec. Suspendisse potenti. Donec sit amet quam augue. Aenean tempus neque sit amet quam semper nec malesuada turpis eleifend. Sed elit nisl, placerat nec egestas et, ullamcorper at leo. Quisque feugiat pellentesque condimentum. Proin consequat dolor ac augue pellentesque at vestibulum ante laoreet. Vivamus imperdiet, odio et rutrum fermentum, diam lacus ornare ligula, quis condimentum felis velit eu risus. Sed in porta tortor. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Etiam pretium ultrices dui, et tincidunt enim scelerisque in. </p>
+
+	</div>
+
+	</div>
+	<div class="sidebarB">
+
+<script charset="utf-8" src="http://widgets.twimg.com/j/2/widget.js"></script>
+<script>
+new TWTR.Widget({
+  version: 2,
+  type: 'profile',
+  rpp: 4,
+  interval: 30000,
+  width: 200,
+  height: 250,
+  theme: {
+    shell: {
+      background: '#F54D70',
+      color: '#000000'
+    },
+    tweets: {
+      background: '#F54D70',
+      color: '#000000',
+      links: '#000000'
+    }
+  },
+  features: {
+    scrollbar: false,
+    loop: false,
+    live: false,
+    behavior: 'all'
+  }
+}).render().setUser('muscleflea').start();
+</script>
+
+	</div>
+
+<div class="footer">
+		</div>
+
+
+<script type="text/javascript">
+$(document).ready(
+   function() {
+      $(".container").wtRotator();
+   }
+);
+</script>
+
+
+
+</body>
+</html>
